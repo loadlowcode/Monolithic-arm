@@ -1,0 +1,36 @@
+body {
+  background-image: url('https://www.metmuseum.org/-/media/images/art/collection-landing-page/makers-materials-forms/valloton-woodcut.jpg?as=1&la=en&mh=454&mw=720&hash=127A2C837FD86032DFCFAAAA85DDDF60');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.8);
+}
+
+li {
+  width: 600px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 23px 83px;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 80px;
+}
+
+li a:hover {
+  background-color:tomato;
+  font-size: 21px;
+}
